@@ -1,0 +1,9 @@
+name: AntiFreecam
+version: 1.0
+main: br.antifreecam.AntiFreecam
+api-version: '26.3'
+description: Limita o que o jogador enxerga (esconde entidades fora da linha de visao)
+permissions:
+  antifreecam.bypass:
+    description: Nao tem a visao limitada
+    default: op

@@ -1,0 +1,16 @@
+# De quantos em quantos ticks a visao e recalculada (5 = 4x por segundo)
+interval-ticks: 5
+
+# Alem dessa distancia (em blocos) ninguem e visto, mesmo sem parede no meio
+max-distance: 64
+
+# Dentro dessa distancia a entidade sempre aparece (evita "piscar" perto de voce)
+near-distance: 8
+
+# Raio de busca de entidades (deve ser >= max-distance)
+scan-radius: 96
+
+# O que deve ser escondido quando estiver atras de blocos
+hide-players: true
+hide-mobs: true
+hide-items: false
